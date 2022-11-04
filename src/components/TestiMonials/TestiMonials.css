@@ -1,0 +1,60 @@
+.shadow-effect {
+
+    padding: 20px;
+    height: 305px;;
+    padding-top: 25px;
+    border-radius: 4px;
+    text-align: center;
+    border: 1px solid #ECECEC;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.10), 0 15px 12px rgba(0,0,0,0.02);
+  }
+  
+  .center_frame{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+  }
+
+  #shadow-effect p {
+    font-family: inherit;
+    font-size: 17px;
+    line-height: 1.5;
+    margin: 0 0 17px 0;
+    font-weight: 300;
+  }
+
+  .img-circle {
+    width: 100%;
+    vertical-align: middle;
+    border-bottom-left-radius: 80% 30% !important;
+   border-radius: 26px;;
+    transform-style: preserve-3d;
+    margin: 0 auto 17px;
+  }
+  #customer-testimonoals {
+    margin-top: 6%;
+  }
+  .testimonial-name {
+   
+    color: #000;
+    font-family: 'Helvetica';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+
+color: #1D1E1C;
+  
+  }
+  .owl_shadow{
+    box-shadow: 11px 11px lightblue;
+
+  }

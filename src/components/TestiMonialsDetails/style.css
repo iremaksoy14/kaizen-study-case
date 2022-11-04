@@ -1,0 +1,18 @@
+.border_text{
+    font-family: 'Helvetica';
+font-style: normal;
+font-weight: 400;
+font-size: 13px !important;
+line-height: 15px;
+text-align: center;
+  }
+  .border_parent{
+    position:fixed;
+    left:"70%";
+    bottom:70px;
+    text-align: center;
+    border-radius:26px;
+    background-color:#1D1E1C;
+ width:90px;
+    color:white;
+  }
