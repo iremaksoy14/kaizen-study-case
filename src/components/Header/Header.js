@@ -2,7 +2,8 @@ import React,{useEffect,useState} from 'react';
 import PropTypes from 'prop-types';
 import './style.css'
 import {useSelector,useDispatch} from 'react-redux'
-import header from '../../assets/images/header.png'
+import logo from '../../assets/images/logo.png'
+import account from '../../assets/images/account.png'
 import * as productAction from '../../Store/_redux/ProductStore/productActions'
 import { NavItem } from 'react-bootstrap';
 
@@ -18,7 +19,12 @@ const product=useSelector(state=>state.product.products)
     return (
         <div>
             <div className="header_container">
-            <img src={header}/>
+                <div className='sub_cont'>
+                <img width="91" height="40" src={logo}/>
+                <img  width="91" height="40" src={account}/>
+
+                </div>
+         
         </div>
     <div className='header_tabs'>
      {
