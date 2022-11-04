@@ -28,3 +28,6 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 
 
+<img width="182" alt="1 resim" src="https://user-images.githubusercontent.com/60525860/199871551-a7a68581-9e13-40fc-9ac4-5065706168ec.png">
+<img width="188" alt="2 resim" src="https://user-images.githubusercontent.com/60525860/199871562-95ef6498-6757-4a6f-946f-b62a7d8619a1.png">
+<img width="177" alt="3 resim" src="https://user-images.githubusercontent.com/60525860/199871568-90f8d57e-dfde-4770-ae19-5d8626174195.png">
