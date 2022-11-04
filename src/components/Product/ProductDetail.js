@@ -12,50 +12,50 @@ function ProductDetail(props) {
     let params = useParams();
     let navigate = useNavigate();
    
-    function StripTags(input)
+//     function StripTags(input)
 
-{
+// {
 
-  var array = [];
+//   var array = [];
 
-  var inside = false;
+//   var inside = false;
 
  
 
-  for ( var i = 0; i < input.length; i++)
+//   for ( var i = 0; i < input.length; i++)
 
-  {
+//   {
 
-    var test = input.charAt(i);
+//     var test = input.charAt(i);
 
-    if (test == '<')
+//     if (test == '<')
 
-    {
+//     {
 
-      inside = true;
+//       inside = true;
 
-      continue;
+//       continue;
 
-    }
+//     }
 
-    if (test == '>')
+//     if (test == '>')
 
-    {
+//     {
 
-      inside = false;
+//       inside = false;
 
-      continue;
+//       continue;
 
-    }
+//     }
 
-    if (!inside)
+//     if (!inside)
 
-      array.push(test);
+//       array.push(test);
 
-  }
+//   }
 
-  return array.join('');
-}
+//   return array.join('');
+// }
 
     useEffect(()=>{
         dispatch(productAction.getDetailById(params.Id)).then((res)=>{
@@ -73,10 +73,10 @@ function ProductDetail(props) {
            
         
              
-        <p className='detail_text'>{StripTags(getDetail.BrandPromotionCardParticipationText)}</p>
+        <p className='detail_text'>{getDetail.BrandPromotionCardParticipationText}</p>
 <div className='overflow_class'>
     <span className='detail_parapgraph'>
-  {StripTags(getDetail.Description)} 
+  {getDetail.Description} 
     </span>
     <div ><button className='detail_tick'>Hemen Katıl</button></div>
 </div>

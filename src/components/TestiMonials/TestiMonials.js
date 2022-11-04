@@ -17,7 +17,7 @@ const TestiMonials = () => {
     dispatch(productAction.getList()).then((res)=>{
         console.log(res,)
     })
-  },[])
+  },[items])
   
     const testiMonials = items
     //Owl Carousel Settings
